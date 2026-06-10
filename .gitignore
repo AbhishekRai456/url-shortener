@@ -1,0 +1,18 @@
+# Dependencies
+**/node_modules/
+
+# Environment Variables
+**/.env
+backend/.env
+
+# Prisma Generated Artifacts
+backend/generated/prisma/
+
+# Production Build Artifacts
+frontend/dist/
+frontend/.vite/
+
+# Local system/IDE junk
+.DS_Store
+thumbs.db
+.vscode/
